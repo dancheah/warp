@@ -15,6 +15,7 @@ flag timeout-protection
     Description: Use timeouts (very performance-costly) to protect against DOS attacks.
     Default: True
 flag network-bytestring
+    Default: False
 
 Library
   Build-Depends:     base                          >= 3        && < 5
